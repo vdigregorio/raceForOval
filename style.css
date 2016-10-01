@@ -1,27 +1,31 @@
 body {
     margin: 0 auto;
     border: 3px dotted purple;
-    padding: 70px;
+    padding: 50px;
 }
 
-div.trump {
+div.trump img {
     margin: 30px;
-    background-color: black;
     width: 100px;
     height: 100px;
 }
 
-div.clinton {
+div.oval img {
     margin: 30px;
-    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+div.clinton img {
+    margin: 30px;
     width: 100px;
     height: 100px;
 }
 
 .flex-container {
     border: 3px red dotted;
-    width: 1000px;
-    height: 575px;
+    width: 1150px;
+    height: 555px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,4 +34,15 @@ div.clinton {
 
 .flex-item {
     align-self: flex-start;
+}
+
+button {
+    font-size: 30px;
+    margin: 0 auto;
+    margin-left: 45%;
+    margin-bottom: 40px;
+}
+button:hover{
+    color:blue;
+    border-radius: 10px;
 }

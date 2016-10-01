@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    border: 3px dotted purple;
+    padding: 70px;
+}
+
+.flex-container {
+    border: 3px red dotted;
+    width: 1150px;
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+  margin-top: 100px;
+  margin-bottom: 30px;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+
+
+button:hover {
+    color: blue;
+    border-radius: 10px;
+}
+
+h1 {
+   text-align: center;
+   top: 40px;
+}
+p{
+  text-align: center;
+}
