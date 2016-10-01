@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    border: 3px dotted purple;
+    padding: 70px;
+}
+
+div.trump {
+    margin: 30px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+div.clinton {
+    margin: 30px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container {
+    border: 3px red dotted;
+    width: 1000px;
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    align-self: flex-start;
+}
