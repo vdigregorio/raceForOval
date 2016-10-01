@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 
     $(".ovalClick").click(function(){
-        $('.oval').animate({'marginLeft': '900px'}, 3000);
+        $('.oval').animate({'marginLeft': '1000px'}, 3000);
     });
 // function winner(){
 //   if ($('.clinton')).css('marginLeft', '900px'){

@@ -1,11 +1,13 @@
 body {
     margin: 0 auto;
-    border: 3px dotted purple;
-    padding: 70px;
+font-family: helvetica;
+   background-image: url(images/flag.gif);
+    background-size: cover;
+
 }
 
 .flex-container {
-    border: 3px red dotted;
+  margin-left: 30px;
     width: 1150px;
     height: 575px;
     display: flex;
@@ -30,9 +32,19 @@ button:hover {
 }
 
 h1 {
+  font-size: 70px;
    text-align: center;
    top: 40px;
 }
+h2{
+  font-size: 50px;
+}
 p{
   text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+span{
+  color: blue;
+  font-size: 30px;
 }
